@@ -9,13 +9,14 @@
   
   inputs.src-smnar-master.flake = false;
   inputs.src-smnar-master.owner = "juancarlospaco";
-  inputs.src-smnar-master.ref   = "refs/heads/master";
+  inputs.src-smnar-master.ref   = "master";
   inputs.src-smnar-master.repo  = "nim-smnar";
   inputs.src-smnar-master.type  = "github";
   
   inputs."zip".owner = "nim-nix-pkgs";
   inputs."zip".ref   = "master";
   inputs."zip".repo  = "zip";
+  inputs."zip".dir   = "0_3_1";
   inputs."zip".type  = "github";
   inputs."zip".inputs.nixpkgs.follows = "nixpkgs";
   inputs."zip".inputs.flakeNimbleLib.follows = "flakeNimbleLib";

@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-smnar-master.flake = false;
+  inputs.src-smnar-master.ref   = "refs/heads/master";
   inputs.src-smnar-master.owner = "juancarlospaco";
-  inputs.src-smnar-master.ref   = "master";
   inputs.src-smnar-master.repo  = "nim-smnar";
   inputs.src-smnar-master.type  = "github";
   
